@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  background-color: aqua;
+  width: 97.3%;
+  height: 30px;
+  padding: 20px;
+}
+.nav .nav1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.nav .nav1 h3 {
+  flex-wrap: wrap;
+}
+.nav .nav1 input {
+  width: 20%;
+  height: 20px;
+  padding: 8px 0 8px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+.nav .nav1 button {
+  background-color: orange;
+  padding: 8px 0 8px 0;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  width: 12%;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header .header1 h1 {
+  color: orange;
+  text-align: center;
+}
+.header .header1 h3 {
+  text-align: left;
+}
+.header .header2 {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+.header .header2 button {
+  padding: 5px 10px;
+  border-width: 2px;
+  border-color: orange;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.samples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+.samples .sample1 {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.samples .sample1 img {
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+.box button {
+  padding: 10px 0 8px 0;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: orange;
+  width: 17%;
+  cursor: pointer;
+}
+
+.bottom {
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+}
+.bottom .bottom1 {
+  background: #fff;
+  padding: 30px;
+  text-align: right;
+}
+.bottom .bottom1 img {
+  width: 170%;
+  height: 100%;
+}
+.bottom .bottom2 {
+  padding: 30px;
+  text-align: center;
+}
+.bottom .bottom2 .bottom3 {
+  display: inline-block;
+  padding: 20px 50px;
+  font-weight: bold;
+}
+.bottom .bottom2 .bottom3 button {
+  background-color: white;
+  color: orange;
+  padding: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: orange;
+  cursor: pointer;
+}
+.bottom .bottom2 button {
+  padding: 10px;
+  border: 1px solid orange;
+  background: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.bottom .bottom2 p {
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */
